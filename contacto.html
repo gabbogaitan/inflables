@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="funciones.js"></script>
+
+    <style>
+        .container {
+          display: flex;
+          justify-content: space-between;
+        }
+        .form-container {
+          flex: 1;
+          margin-right: 50px;
+        }
+        .instagram-container {
+          flex: 2;
+
+        }
+        body {
+          background-color: rgb(206, 145, 145); /* Cambia el color a tu preferencia */
+          background-image: url('globos.jfif'); /* Ruta a tu imagen */
+          background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+          
+             }
+      </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO INFLABLES.BBKIDS</title>
+   
+</head>
+
+<body>
+    <header>
+        <img width="1270px" height="300px" src="inflables_bbkids_logo.png" alt="banner_inflables_bbkids">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="combos.html">Combos</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="contacto.html">Nosotros</a></li>
+            
+        </ul>
+        <div class="container">
+            <div class="form-container" style="margin-left: 1rem;">
+                <h3>ENVIANOS TU CONSULTA</h3>
+                <form id="contactForm">
+                    Nombre:<br>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre"><br>
+                    Correo electrónico:<br>
+                    <input type="text" id="email" name="email" placeholder="Tu correo electrónico"><br>
+                    Mensaje:<br>
+                    <textarea id="message" name="message" rows="4" placeholder="Tu mensaje"></textarea><br><br>
+                    <button type="button" onclick="sendmessages()" style="background-color: #12863c; color: white; padding: 10px 10px; border: none; border-radius: 300px;">
+                    Enviar
+                    </button>
+                </form>
+            </div>
+            <div class="instagram-container" >
+                <h3>Mi perfil de Instagram</h3>
+                <iframe src="https://www.instagram.com/inflables.bbkids/embed" width="350" height="365" frameborder="5" scrolling="si" allowtransparency="true"></iframe>
+            </div>
+            
+        </div>
+        
+
+    </nav>
+    <h3>NUESTRA UBICACION</h3>
+                <P>Nos encontramos en Ministro Rivadavia, partido de Almirante Brown</P>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52384.56665824726!2d-58.376322199490026!3d-34.85533741945483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32af8fddf6f93%3A0x593d6865e85d09cd!2sMinistro%20Rivadavia%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1727772949342!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+    
+    
+ 
+</body>
+
+
+</html>

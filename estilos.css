@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Waltograph';
+    src: url('Waltograph-Regular.ttf') format('truetype');
+  }
+nav ul {
+    list-style-type: none; /* Sin puntos de lista */
+    padding: 0;
+    margin: 1;
+    display: flex; /* Muestra los elementos en línea */
+    justify-content: baseline; /* Espaciado uniforme */
+  }
+  
+  nav ul li {
+    margin: 25px; /* Espaciado entre botones */
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    background-color: #e08d8d; /* Color de fondo del botón */
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 25px; /* Bordes redondeados para efecto de globo */
+    text-align: match-parent; /* Texto centrado */
+    font-family: 'Waltograph', sans-serif; /* Aplica la fuente aquí */
+  }
+  
+  nav ul li a:hover {
+    background-color: #6fc4f5; /* Color al pasar el cursor */
+  }
+  div div h3 {
+    display: block;
+    padding: 10px 20px;
+    background-color: #e08d8d; /* Color de fondo del botón */
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 25px; /* Bordes redondeados para efecto de globo */
+    text-align: match-parent; /* Texto centrado */
+    font-family: 'Waltograph', sans-serif; /* Aplica la fuente aquí */
+
+  }
+  
+  h3 {
+    
+    display: block;
+    padding: 10px 20px;
+    border-right: 20;
+    background-color: #e08d8d; /* Color de fondo del botón */
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 25px; /* Bordes redondeados para efecto de globo */
+    text-align: match-parent; /* Texto centrado */
+    font-family: 'Waltograph', sans-serif; /* Aplica la fuente aquí */
+  }
+  
